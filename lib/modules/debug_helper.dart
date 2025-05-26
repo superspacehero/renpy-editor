@@ -1,12 +1,11 @@
 // Helper file to debug conversion process
 import 'dart:io';
 
-import 'package:renpy_editor/logging.dart';
+import 'package:renpy_editor/utils/logging.dart';
 
 // Function to write debug output to a file
 Future<void> writeDebugOutput(String content, String filename) async {
-  final debugDir =
-      Directory('debug');
+  final debugDir = Directory('debug');
   if (!await debugDir.exists()) {
     await debugDir.create();
   }

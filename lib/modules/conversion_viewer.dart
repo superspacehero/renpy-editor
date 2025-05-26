@@ -4,8 +4,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:html/parser.dart' show parse;
 
-import 'package:renpy_editor/theme.dart';
-
 class ConversionViewer extends StatefulWidget {
   final String htmlContent;
   final String renpyContent;
@@ -222,7 +220,6 @@ class _ConversionViewerState extends State<ConversionViewer> {
         children: [
           Container(
             padding: const EdgeInsets.all(8.0),
-            color: AppTheme.primaryColor.withValues(alpha: 0.1),
             child: Row(
               children: [
                 const Expanded(
@@ -303,7 +300,6 @@ class _ConversionViewerState extends State<ConversionViewer> {
         children: [
           Container(
             padding: const EdgeInsets.all(8.0),
-            color: Colors.green.withValues(alpha: 0.15),
             child: Row(
               children: [
                 const Expanded(

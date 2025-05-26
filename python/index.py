@@ -3,7 +3,7 @@ import logging
 import argparse
 import sys
 
-# GUI is now provided by the Flutter project in ./renpy_editor
+# GUI is now provided by the Flutter project in ./renpy-editor
 
 from renpy_doc_convert.api import convert
 
@@ -60,5 +60,5 @@ if __name__ == "__main__":
     else:
         logging.info("Launching Flutter GUI")
         print("Please launch the Flutter GUI:")
-        print("  cd renpy_editor && flutter run")
+        print("  cd renpy-editor && flutter run")
         sys.exit(0)

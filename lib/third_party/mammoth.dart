@@ -6,7 +6,7 @@ import 'dart:convert';
 import 'package:archive/archive.dart';
 import 'package:xml/xml.dart';
 
-import 'package:renpy_editor/logging.dart';
+import 'package:renpy_editor/utils/logging.dart';
 import 'package:renpy_editor/third_party/mammoth_helpers.dart';
 
 /// Class to represent a result with both value and error information
